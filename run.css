@@ -22,7 +22,7 @@
 
   <div class="code-block">
     const signal = () => {
-      console.log("Branded chaos initialized.");
+      console.log("Run your code here :).");
     }
     signal();
   </div>
