@@ -1,0 +1,59 @@
+<html>
+<head>
+  <style>
+    body {
+      margin: 0;
+      background: #0f0f0f;
+      font-family: monospace;
+      color: #00ffe0;
+    }
+
+    .system-core {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      background: linear-gradient(135deg, #1a1a1a, #000000);
+      border: 2px solid #00ffe0;
+      box-shadow: 0 0 20px #00ffe0;
+    }
+
+    .signal {
+      font-size: 1.2rem;
+      padding: 1rem;
+      border: 1px dashed #00ffe0;
+      margin-bottom: 1rem;
+      background: #111;
+    }
+
+    .trigger-button {
+      padding: 0.5rem 1rem;
+      background: #00ffe0;
+      color: #000;
+      border: none;
+      cursor: pointer;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+
+    .trigger-button:hover {
+      background: #00bfa5;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="system-core">
+    <div class="signal">🧠 SYSTEM SIGNAL: Mythos Core Online</div>
+    <button class="trigger-button" onclick="activate()">Activate Ritual</button>
+  </div>
+
+  <script>
+    function activate() {
+      alert("Ritual Triggered. Chaos stabilized.");
+    }
+  </script>
+
+</body>
+</html>
